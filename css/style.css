@@ -1,2 +1,83 @@
-      html, body { height: 100%; margin: 0; padding: 0; }
-      #map { height: 100%; }
+/* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+html, body, .container, .main-map {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+ }
+
+body {
+  font: 14px "Helvetica", sans serif;
+  background-color: #000;
+}
+
+h1 {
+	font-size: 1.5em;
+	color: #a62739;
+}
+
+h3 {
+	color: #d9d9d9;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+li {
+	margin: 0.5em 0;
+	color: #d9d9d9;
+}
+
+li:hover {
+	color: #d92b4b;
+}
+
+.search-input {
+	margin-right: 1em;
+}
+
+.text-container {
+	padding-left: 15px;
+}
+
+/* InfoWindow Styles */
+
+h4 {
+	color: black;
+	margin:  0;
+	font-size: 1.2em;
+}
+
+h5 {
+	margin: 0;
+	color: #707070;
+	font-size: 1em;
+}
+
+h6 {
+	color: #388e8e;
+	font-size: 0.9em;
+	margin: 0.3em 0 0 0;
+}
+
+a {
+	text-decoration: none;
+	color: #a62139;
+}
+
+a:hover {
+	color: #388e8e;
+}
+
+/* Map */
+.main-map {
+	position: relative;
+	height: 100vh;
+}
