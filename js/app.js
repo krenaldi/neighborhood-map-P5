@@ -179,6 +179,8 @@ var Venue = function(data) {
   // Set all the properties as knockout observables
   var marker;
   this.name = ko.observable(data.name);
+  this.date = ko.observable(data.date);
+  this.location = ko.observable(data.location);
   this.lat = ko.observable(data.lat);
   this.lng = ko.observable(data.lng);
   this.address = ko.observable(data.address);
