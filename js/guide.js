@@ -1,12 +1,12 @@
 /* List of venues to be pulled by app-engine.js for listing in Yelp */
-var venueListings = [
+var venueLocations = [
     {
         date: 'Mar 05',
         location: 'New York, NY',
         name: "O'Flanagan's",
         lat: 40.763865,
         lng: -73.959315,
-        address: '1215 1st Ave, New York, NY 10065',
+        address: '1215 1st Ave, New York, NY 10021',
         neighborhood: 'Upper East Side'
     },
     {
@@ -21,12 +21,12 @@ var venueListings = [
     },
     {
         date: 'Mar 19',
-        location: 'Staten Island, NY',
-        name: 'Hot Shotz',
-        lat: 40.523310,
-        lng: -74.216272,
-        address: '6321 Amboy Rd, Staten Island, NY 10309',
-        neighborhood: 'Princes Bay'
+        location: 'South Plainfield, NJ',
+        name: "K C's Korner",
+        lat: 40.578440,
+        lng: -74.410312,
+        address: '100 Oak Tree Ave, South Plainfield, NJ 07080',
+        neighborhood: ''
     },
     {
         date: 'Apr 09',
@@ -49,10 +49,10 @@ var venueListings = [
     {
         date: 'Apr 22',
         location: 'New York, NY',
-        name: "McGettigan's",
+        name: "McGettigan's NYC",
         lat: 40.750625,
         lng: -73.986298,
-        address: '70 W 36th St, New York, NY 10018',
+        address: '70 W 36th St, New York, NY 10036',
         neighborhood: 'Midtown West'
     },
     {
@@ -112,7 +112,7 @@ var venueListings = [
     {
         date: 'Oct 14',
         location: 'Staten Island, NY',
-        name: "Killmeyer's Old Bavarian Inn",
+        name: "Killmeyer's Old Bavaria Inn",
         lat: 40.538459,
         lng: -74.237136,
         address: '4254 Arthur Kill Rd, Staten Island, NY 10309',
